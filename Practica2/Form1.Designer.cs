@@ -47,6 +47,7 @@ namespace Practica2
             this.btnRegistros.TabIndex = 0;
             this.btnRegistros.Text = "Agregar Registros";
             this.btnRegistros.UseVisualStyleBackColor = true;
+            this.btnRegistros.Click += new System.EventHandler(this.btnRegistros_Click);
             // 
             // btnDatos
             // 
@@ -56,6 +57,7 @@ namespace Practica2
             this.btnDatos.TabIndex = 1;
             this.btnDatos.Text = "Enviar datos";
             this.btnDatos.UseVisualStyleBackColor = true;
+            this.btnDatos.Click += new System.EventHandler(this.btnDatos_Click);
             // 
             // txtApellidos
             // 

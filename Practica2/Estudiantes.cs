@@ -9,8 +9,8 @@ namespace Practica2
     public class Estudiantes
     {
         public int Id { get; set; }
-        public int Nombres { get; set; }
-        public int Apellidos { get; set; }
+        public string Nombres { get; set; }
+        public string Apellidos { get; set; }
 
     }
 }
